@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "Hugo Theme Fuji"
+baseURL = "https://codeunit.net"
+title = "codeunitone"
 
 theme = "fuji"
 hasCJKLanguage = true
@@ -31,11 +31,11 @@ paginate = 10
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  author = "DSRKafuU" # You can also set author in post front matter individually
-  subTitle = "A minimal Hugo theme."
+  author = "Benjamin" # You can also set author in post front matter individually
+  subTitle = ""
 
   # Source URL of the website, will appear in the footer
-  sourceURL = "https://github.com/itsme/my_blog"
+  sourceURL = "https://github.com/codeunitone/codeunitone-blog"
 
   # Use CloudFlare Workers to accelerate the Google Analytics
   # If you are using this please comment the googleAnalytics above
@@ -137,13 +137,9 @@ paginate = 10
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/dsrkafuu"
+    url = "https://github.com/codeunitone"
     weight = 1
   [[menu.link]]
     name = "Twitter"
-    url = "https://twitter.com/dsrkafuu"
+    url = "https://twitter.com/codeunitone"
     weight = 2
-  [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
-    weight = 3
